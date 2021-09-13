@@ -3,7 +3,7 @@ pipeline {
         label "worker1"
     }
     stages {
-        stage ("check jenkins status"){
+        stage ("check-jenkins-status"){
             steps {
                 sh '''
                 pwd
