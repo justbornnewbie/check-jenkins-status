@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh '''
                 pwd
-                ./jenkins.sh
+                ./check-jenkins.status.sh
                 '''
             }
         }
