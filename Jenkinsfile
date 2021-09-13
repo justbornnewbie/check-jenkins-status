@@ -6,6 +6,7 @@ pipeline {
         stage ("check jenkins status"){
             steps {
                 sh '''
+                pwd
                 ./jenkins.sh
                 '''
             }
