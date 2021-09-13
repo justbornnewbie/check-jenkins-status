@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh '''
                 chmod +x check-jenkins.status.sh
-                ./check-jenkins.status.sh
+                ./check-jenkins.status.sh jenkins
                 '''
             }
         }
