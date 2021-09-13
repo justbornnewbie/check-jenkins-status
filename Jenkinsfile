@@ -6,7 +6,7 @@ pipeline {
         stage ("check-jenkins-status"){
             steps {
                 sh '''
-                pwd
+                chmod +x check-jenkins.status.sh
                 ./check-jenkins.status.sh
                 '''
             }
